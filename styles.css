@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "Quicksand-SemiBold";
+    src: url(fonts/Quicksand-SemiBold.ttf);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(255,75,0);
+    background: linear-gradient(90deg, rgba(255,75,0,1) 20%, rgba(0,0,0,1) 50%);
+    font-family: 'Quicksand-SemiBold';
+    font-size: 10pt;
+    padding: 1em;
+    margin: 0;
+    box-shadow: rgba(0,0,0,.05) 0 3px;
+}
+
+nav {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+.list-navegation {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #FBFCFF ;
+    text-decoration: none;
+}
+
+img {
+    width: 10rem;
+}
+
+@media (max-width: 500px){
+    .list-navegation {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+       flex-direction: column;
+       background: rgb(255,75,0);
+       background: linear-gradient(180deg, rgba(255,75,0,1) 40%, rgba(0,0,0,1) 70%);
+       align-items: center;
+       justify-content: center;
+       padding: 0.5em;
+    }
+
+}
