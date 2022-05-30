@@ -59,7 +59,8 @@ img {
        background: linear-gradient(180deg, rgba(255,75,0,1) 40%, rgba(0,0,0,1) 70%);
        align-items: center;
        justify-content: center;
-       padding: 0.5em;
+       padding: 0;
+       height: 100vw;
     }
 
 }
